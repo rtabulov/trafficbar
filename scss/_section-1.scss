@@ -39,16 +39,25 @@
 }
 
 .slide {
-  background-image: url("../img/painting-3995999_1920.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  &--1 {
+    background-image: url("../img/painting-3995999_1920.jpg");
+  }
+  &--2 {
+    background-image: url("../img/ferrybridge-5428427_1920.jpg");
+  }
+  &--3 {
+    background-image: url("../img/milky-way-5422901_1920.jpg");
+  }
 }
 
 .slick-dots {
   position: absolute;
   bottom: 20px;
-  left: 0;
+  left: 20px;
   right: 0;
   display: flex !important;
   justify-content: flex-start;
