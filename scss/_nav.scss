@@ -1,0 +1,40 @@
+.nav {
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  // right: 0;
+
+  background-color: #fff;
+  color: #000;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    font-size: 25px;
+    font-family: "VW Head";
+    font-weight: bold;
+  }
+
+  &__links {
+    display: flex;
+    font-size: 18px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: inherit;
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

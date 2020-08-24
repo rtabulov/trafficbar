@@ -1,0 +1,54 @@
+.section-8 {
+  background-image: url("/img/section-8-bg.jpg");
+  background-position: 160% bottom;
+  background-size: contain;
+  background-color: #000;
+  background-repeat: no-repeat;
+
+  display: flex;
+
+  font-size: 17px;
+
+  color: #fff;
+
+  line-height: 1.2;
+
+  &__container {
+    padding-bottom: 30px;
+    padding-right: 580px;
+  }
+
+  &__heading {
+    padding-top: 50px;
+    .main {
+      font-size: 60px;
+    }
+
+    &__secondary {
+      font-size: 15px;
+      font-weight: normal;
+      display: inline-block;
+      max-width: 200px;
+    }
+
+    h2 {
+      max-width: 580px;
+      font-weight: normal;
+      font-size: 28px;
+    }
+  }
+
+  .btn-wrap {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 25px;
+  }
+
+  ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    li {
+      margin-bottom: 0;
+    }
+  }
+}

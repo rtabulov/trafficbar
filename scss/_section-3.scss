@@ -1,0 +1,49 @@
+.section-3 {
+  background-image: url("/img/section-3-bg.svg");
+  background-position: left center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+
+  color: #2c2e35;
+
+  &__container {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 420px;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  .screens {
+    display: flex;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .screen {
+      //   width: 100px;
+      flex: 1px;
+
+      box-shadow: 0 7px 15px rgba(#000, 0.3);
+
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+
+      img {
+        display: flex;
+        width: 100%;
+      }
+    }
+  }
+
+  .btn-wrap {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+  }
+}

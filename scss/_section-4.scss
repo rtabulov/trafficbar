@@ -1,0 +1,35 @@
+.section-4 {
+  background-image: url("/img/section-4-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+
+  font-size: 22px;
+  color: #fff;
+
+  &__container {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 850px;
+  }
+
+  h2 {
+    font-size: 22px;
+    text-align: right;
+  }
+
+  ul {
+    li {
+      margin-bottom: 15px;
+    }
+  }
+
+  .btn-wrap {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+  }
+}

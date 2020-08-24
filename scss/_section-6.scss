@@ -1,0 +1,37 @@
+.section-6 {
+  background-image: url("/img/section-6-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+
+  font-size: 22px;
+
+  color: #fff;
+
+  &__container {
+    // padding-bottom: 150px;
+    padding-top: 30px;
+    // padding-left: 850px;
+    padding-right: 500px;
+  }
+
+  h2 {
+    //   text-align: right;
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .btn-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    // max-width: ;
+  }
+}
+
+.text-normal {
+  font-weight: normal;
+}

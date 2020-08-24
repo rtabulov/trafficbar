@@ -1,0 +1,57 @@
+.section-7 {
+  background-image: url("/img/section-7-bg.svg");
+  background-position: center 143%;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  display: flex;
+  //   align-items: center;
+
+  font-size: 18px;
+
+  //   color: #fff;
+
+  &__container {
+    padding-top: 30px;
+    // padding-right: 500px;
+
+    display: flex;
+  }
+
+  h2 {
+    font-size: 28px;
+    margin-bottom: 0;
+  }
+
+  .left {
+    flex: 1;
+  }
+
+  .right {
+    flex: 1;
+    padding-left: 250px;
+    padding-right: 50px;
+    padding-top: 100px;
+  }
+
+  ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    li {
+      margin-bottom: 0;
+      line-height: 1;
+    }
+  }
+
+  .btn-wrap {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+    // max-width: ;
+  }
+}
+
+.text-normal {
+  font-weight: normal;
+}

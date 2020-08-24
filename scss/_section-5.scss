@@ -1,0 +1,27 @@
+.section-5 {
+  background-image: url("/img/section-5-bg.svg");
+  background-position: left center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+
+  font-size: 22px;
+
+  &__container {
+    padding-bottom: 150px;
+    padding-top: 30px;
+    padding-left: 850px;
+  }
+
+  h2 {
+    text-align: right;
+  }
+
+  .btn-wrap {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+  }
+}
