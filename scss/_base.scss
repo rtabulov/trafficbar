@@ -1,5 +1,5 @@
 html {
-  font-family: "VW Text" sans-serif;
+  font-family: "VW Text", sans-serif;
   font-weight: normal;
   font-style: normal;
 
@@ -21,5 +21,6 @@ h6 {
 }
 
 * {
+  font-family: inherit;
   box-sizing: border-box;
 }
