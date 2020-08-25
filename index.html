@@ -379,8 +379,21 @@
       type="text/javascript"
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
+    <script src="./deb.js"></script>
     <script type="text/javascript">
+      // let deb = require("lodash.debounce");
       $(document).ready(function () {
+        $(document).scroll(
+          debounce(function (e) {
+            var hbtn = $(".hover-btn");
+            // console.log($(window).scrollTop());
+            if ($(window).scrollTop() > 250) {
+              hbtn.addClass("show");
+            } else {
+              hbtn.removeClass("show");
+            }
+          }, 200)
+        );
         $(".slider").slick({
           autoplay: true,
           arrows: false,
