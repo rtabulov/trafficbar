@@ -13,9 +13,6 @@
   </head>
 
   <body>
-    <!-- header -->
-    <header></header>
-
     <!-- section 1 -->
     <section class="section section-1">
       <div class="section-1__container">
@@ -26,14 +23,14 @@
               Traffic<span class="text-highlight">BAR</span>
             </div>
             <div class="nav__links">
-              <a href="#" class="nav__link">SMM</a>
-              <a href="#" class="nav__link">Targeting</a>
-              <a href="#" class="nav__link">Контекстная реклама</a>
-              <a href="#" class="nav__link">SEO</a>
-              <a href="#" class="nav__link">CRM</a>
-              <a href="#" class="nav__link">Strategy</a>
-              <a href="#" class="nav__link">О нас</a>
-              <a href="#" class="nav__link">Обратная связь</a>
+              <a href="#smm" class="nav__link">SMM</a>
+              <a href="#targeting" class="nav__link">Targeting</a>
+              <a href="#context" class="nav__link">Контекстная реклама</a>
+              <a href="#seo" class="nav__link">SEO</a>
+              <a href="#crm" class="nav__link">CRM</a>
+              <a href="#strategy" class="nav__link">Strategy</a>
+              <a href="#about" class="nav__link">О нас</a>
+              <a href="#about" class="nav__link">Обратная связь</a>
             </div>
           </div>
         </nav>
@@ -107,31 +104,31 @@
         <!-- feat-list -->
         <div class="feat-list">
           <div class="container feat-list__container">
-            <div class="feat feat--large">
+            <a href="#smm" class="feat feat--large">
               SMM
-            </div>
-            <div class="feat">
+            </a>
+            <a href="#targeting" class="feat">
               Ads Manager
-            </div>
-            <div class="feat">
+            </a>
+            <a href="#context" class="feat">
               Google Ads
-            </div>
-            <div class="feat feat--large">
+            </a>
+            <a href="#seo" class="feat feat--large">
               SEO
-            </div>
-            <div class="feat feat--large">
+            </a>
+            <a href="#crm" class="feat feat--large">
               CRM
-            </div>
-            <div class="feat">
+            </a>
+            <a href="#strategy" class="feat">
               Marketing Strategy
-            </div>
+            </a>
           </div>
         </div>
       </div>
     </section>
 
     <!-- section 2 -->
-    <section class="section section-2">
+    <section class="section section-2" id="smm">
       <div class="container section-2__container">
         <div class="left">
           <div class="heading">
@@ -184,7 +181,7 @@
     </section>
 
     <!-- section 3 -->
-    <section class="section section-3">
+    <section class="section section-3" id="targeting">
       <div class="section-3__container container">
         <h2>Targeting</h2>
         <p>
@@ -218,7 +215,7 @@
     </section>
 
     <!-- section 4 -->
-    <section class="section section-4">
+    <section class="section section-4" id="context">
       <div class="container section-4__container">
         <h2>
           Настройка и ведение <br />
@@ -242,7 +239,7 @@
     </section>
 
     <!-- section 5 -->
-    <section class="section section-5">
+    <section class="section section-5" id="seo">
       <div class="section-5__container container">
         <h2><span class="text-highlight">SEO</span> - оптимизация</h2>
         <ul>
@@ -263,7 +260,7 @@
     </section>
 
     <!-- section 6 -->
-    <section class="section section-6">
+    <section class="section section-6" id="crm">
       <div class="section-6__container container">
         <h2>
           <span class="text-highlight">CRM</span>-система
@@ -295,7 +292,7 @@
     </section>
 
     <!-- section 7 -->
-    <section class="section section-7">
+    <section class="section section-7" id="strategy">
       <div class="section-7__container container">
         <div class="left">
           <h2><span class="text-highlight">MARKETING</span> - strategy</h2>
@@ -325,7 +322,7 @@
     </section>
 
     <!-- section 8 -->
-    <footer class="section section-8">
+    <footer class="section section-8" id="about">
       <div class="section-8__container container">
         <div class="section-8__heading">
           <h1>
@@ -359,14 +356,16 @@
           <a href="#" class="btn">консультация</a>
         </div>
 
-        <p>С уважением, <br />Айдын Канатулы<br />+7 702 269 26 13</p>
+        <p>С уважением, Айдын Канатулы<br />+7 702 269 26 13</p>
         <p>
           улица Мангилик Ел, 55 /<br />
-          БЦ "Астана ЭКСПО-2017", этаж-2,<br />
-          офис No7
+          БЦ "Астана ЭКСПО-2017", этаж-2, офис №7
         </p>
       </div>
     </footer>
+
+    <!-- hover button -->
+    <a href="#" class="hover-btn"><img src="./img/next.svg" alt="" /></a>
 
     <script
       type="text/javascript"
@@ -383,7 +382,7 @@
     <script type="text/javascript">
       $(document).ready(function () {
         $(".slider").slick({
-          //   autoplay: true,
+          autoplay: true,
           arrows: false,
           dots: true,
           //   appendDots: $(".feat-list__container"),

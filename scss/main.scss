@@ -4,8 +4,8 @@ $color-primary: #00b9f2;
 @import "./fonts";
 @import "./base";
 @import "./nav";
-
 @import "./common";
+@import "./slider";
 @import "./section-1";
 @import "./section-2";
 @import "./section-3";
@@ -15,4 +15,5 @@ $color-primary: #00b9f2;
 @import "./section-7";
 @import "./section-8";
 @import "./feat-list";
+@import "./hover-btn";
 @import "./btn";

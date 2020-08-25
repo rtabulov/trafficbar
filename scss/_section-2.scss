@@ -1,9 +1,9 @@
 .section-2 {
-  background-image: url("../img/section-2-bg.jpg");
+  background-image: url("../img/section-2-bg.png");
   background-color: black;
   background-position: bottom left;
   background-repeat: no-repeat;
-  background-size: 50% auto;
+  background-size: contain;
 
   color: #fff;
   display: flex;
@@ -13,6 +13,7 @@
     display: flex;
     align-items: stretch;
     flex: 1;
+    gap: 30px;
   }
 
   .left {
@@ -49,9 +50,6 @@
       margin-top: 15px;
     }
   }
-}
-h2 {
-  font-size: 35px;
 }
 
 ul {
