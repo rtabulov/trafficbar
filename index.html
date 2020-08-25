@@ -435,6 +435,8 @@
                   />
                 </g>
               </svg>`);
+
+        $(".section-7 ul li").text((i, old) => old.trim());
         $(document).scroll(
           debounce(function (e) {
             var hbtn = $(".hover-btn");
