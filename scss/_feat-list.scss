@@ -27,6 +27,47 @@
   position: relative;
   overflow: hidden;
 
+  svg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+  }
+
+  .str0,
+  .str1,
+  .str2 {
+    transform-origin: center center;
+    transition-timing-function: ease-out;
+  }
+
+  .str0 {
+    transition-duration: 0.4s;
+  }
+
+  .str1 {
+    transition-duration: 0.6s;
+    transition-delay: 0.1s;
+  }
+
+  .str2 {
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+  }
+
+  &:hover {
+    .str0 {
+      transform: rotate(270deg);
+    }
+    .str1 {
+      transform: rotate(390deg);
+    }
+    .str2 {
+      transform: rotate(-170deg);
+    }
+  }
+
   &::before {
     content: "";
     display: block;
@@ -35,7 +76,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background-image: url("../img/circle.svg");
+    // background-image: url("../img/circle.svg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -49,5 +90,17 @@
 
   &--large {
     font-size: 32px;
+
+    &:hover {
+      .str0 {
+        transform: rotate(390deg);
+      }
+      .str1 {
+        transform: rotate(-170deg);
+      }
+      .str2 {
+        transform: rotate(270deg);
+      }
+    }
   }
 }
